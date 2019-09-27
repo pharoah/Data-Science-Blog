@@ -1,5 +1,6 @@
-# blog-cms-for-notebook
-This CMS is for jupyter/google colab notebook to ease blogging for data science / machine learning topics with interactive conversion of notebook to pretty blogpost. 
+# Data Science Blog
+
+This CMS project is intented to provide better blogging platform for data science or machine learning enthusiast to write and publish blog efficiently, in-short upload notebook and cms will try to convert it into beautiful blogpost.
 
 This is still in progress and I am using Flask/SQLite/SQLALCHEMY/BOOTSTRAP. Anybody interested in collaboration, please contact. 
 
