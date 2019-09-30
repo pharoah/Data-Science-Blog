@@ -47,10 +47,13 @@
 			<div class = "form-group">
 					{{ form.submit(class="btn btn-outline-info")}}
 
-			      <small class = "text-muted ml-2"> <a href="{{ url_for('users.reset_password') }}"> Forgot Password? </a> </small>
+			      <small class = "text-muted ml-2"> <a href="{{ url_for('users.reset_password') }}">
+							Forgot Password? </a>
+						</small>
 			      <small class = "text-muted">
-			  Need an account? <a class="ml-2" href="{{ url_for('users.register')}}"> Sign Up Now </a>
-
+			  			Need an account? 
+							<a class="ml-2" href="{{ url_for('users.register')}}"> Sign Up Now </a>
+						</small>
 				</div>
 		</form>
 
